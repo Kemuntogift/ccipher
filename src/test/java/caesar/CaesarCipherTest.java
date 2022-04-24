@@ -22,7 +22,7 @@ public class CaesarCipherTest {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
         assertEquals(5, cipherText.getKey());
     }
-
+//validate key
     @Test
     public void newCaesarCipher_checkWhetherKeyIsValid_true() {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
