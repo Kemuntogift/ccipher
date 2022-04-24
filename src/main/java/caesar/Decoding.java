@@ -11,10 +11,16 @@ public class Decoding {
             int charIndex = alphabet.indexOf(cText.charAt(i));
             int newIndex = (charIndex - key) % 26;
             //add if statement in case we get a negative value from subtraction
-
+            if (newIndex < 0){
+                newIndex = alphabet.length() + newIndex;
+            }
+            //to generate new characters
+            char newChar = alphabet.charAt(newIndex);
+            //appending characters to the empty theText string
+            theText = theText + newChar;
 
             }
-        }
+
 
         return theText;
     }

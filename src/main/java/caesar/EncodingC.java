@@ -1,5 +1,6 @@
+package caesar;
 
-public class Encoding {
+public class EncodingC {
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
     public static String encoding(String theText, int key) {
         theText = theText.toLowerCase();
@@ -16,6 +17,6 @@ public class Encoding {
             //appending characters to the empty string cText
             cText = cText + cipherTextChar;
         }
-           return cText;
-}
+        return cText;
+    }
 }
