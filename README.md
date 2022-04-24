@@ -20,11 +20,13 @@ Interaction is done through the command line or terminal.
 
 * An access to the Internet and a browser.This will enable the user to have full functionalities of the application
 
+## Known bugs
+* decoding
 
 ## References
-* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* LMS
 * Youtube
-* Bootstrap
+* LinkedIn learning
 
 ## Licence
 
