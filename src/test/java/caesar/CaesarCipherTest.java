@@ -16,10 +16,16 @@ public class CaesarCipherTest {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
         assertEquals("go for lunch", cipherText.getTheText());
     }
-
+//get key
     @Test
     public void newCaesarCipher_getsTheKey_5() {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
         assertEquals(5, cipherText.getKey());
+    }
+
+    @Test
+    public void newCaesarCipher_checkWhetherKeIsValid_true() {
+        CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
+        assertEquals(true, key.isValid());
     }
 }
