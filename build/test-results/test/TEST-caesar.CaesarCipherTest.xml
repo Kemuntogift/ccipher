@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="caesar.CaesarCipherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-24T08:44:03" hostname="gift-HP-Laptop-14s-cf0xxx" time="0.038">
+  <properties/>
+  <testcase name="newSentence_containsWordsAndKey_inSentence()" classname="caesar.CaesarCipherTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
