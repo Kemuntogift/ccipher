@@ -1,6 +1,6 @@
 public class Encoding {
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
-    public Encoding(String theText, int key) {
+    public static String encoding(String theText, int key) {
         theText = theText.toLowerCase();
         String cText = "";
         //loop through index of alphabet
@@ -14,6 +14,6 @@ public class Encoding {
             //appending characters to the empty string cText
             cText = cText + cipherTextChar;
         }
-
+           return cText;
 }
 }
