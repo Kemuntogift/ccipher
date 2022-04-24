@@ -13,9 +13,13 @@ public class CaesarCipher {
             int charIndex = alphabet.indexOf(theText.charAt(i));
             int newIndex = (charIndex + key) % 26;
 
-            //generate cipher characters form alphabet at the new index
+            //generate cipher characters from alphabet at the new index for replacement using the key
             char cipherTextChar = alphabet.charAt(newIndex);
+
+            //appending characters to the empty string cText
+            cText = cText + cipherTextChar;
         }
+
         this.theText = theText;
         this.key = key;
     }
