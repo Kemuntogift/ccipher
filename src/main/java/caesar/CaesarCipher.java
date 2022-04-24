@@ -8,6 +8,7 @@ public class CaesarCipher {
     public CaesarCipher(String theText, int key) {
         theText = theText.toLowerCase();
         String cText = "";
+        for(int i=0; i<theText.length(); i++)
         this.theText = theText;
         this.key = key;
     }
