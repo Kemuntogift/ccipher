@@ -1,5 +1,6 @@
 
-public class Encoding {
+/* public class Encoding {
+
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
     public static String encoding(String theText, int key) {
         theText = theText.toLowerCase();
@@ -19,3 +20,4 @@ public class Encoding {
            return cText;
 }
 }
+*/
