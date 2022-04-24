@@ -2,6 +2,7 @@ public class Encoding {
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
     public static String encoding(String theText, int key) {
         theText = theText.toLowerCase();
+        // to get cipher text
         String cText = "";
         //loop through index of alphabet
         for (int i = 0; i < theText.length(); i++) {
