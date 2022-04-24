@@ -16,4 +16,10 @@ public class CaesarCipher {
     public int getKey(){
         return this.key;
     }
+    public boolean isValid(){
+        if ((key>0 && key < 26)){
+            return true;
+        }
+        return false;
+    }
 }

@@ -24,8 +24,8 @@ public class CaesarCipherTest {
     }
 
     @Test
-    public void newCaesarCipher_checkWhetherKeIsValid_true() {
+    public void newCaesarCipher_checkWhetherKeyIsValid_true() {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
-        assertEquals(true, key.isValid());
+        assertEquals(true, cipherText.isValid());
     }
 }
