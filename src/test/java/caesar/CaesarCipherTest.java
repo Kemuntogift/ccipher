@@ -14,6 +14,12 @@ public class CaesarCipherTest {
     @Test
     public void newCaesarCipher_getsTheText_goForLunch() {
         CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
-        assertEquals("go for lunch", testCaesarCipher.getTheText());
+        assertEquals("go for lunch", cipherText.getTheText());
+    }
+
+    @Test
+    public void newCaesarCipher_getsTheKey_5() {
+        CaesarCipher cipherText = new CaesarCipher ("go for lunch", 5);
+        assertEquals(5, cipherText.getKey());
     }
 }
