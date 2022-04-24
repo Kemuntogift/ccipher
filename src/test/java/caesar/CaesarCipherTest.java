@@ -29,9 +29,5 @@ public class CaesarCipherTest {
         assertEquals(true, cipherText.isValid());
     }
 
-    @Test
-    public void newCaesarCipher_getsCipherText_goForLunch() {
-        CaesarCipher cText = new CaesarCipher ("go for lunch", 5);
-        assertEquals("go for lunch", cText.getCText());
-    }
+
 }
