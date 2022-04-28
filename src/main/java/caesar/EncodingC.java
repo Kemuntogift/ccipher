@@ -5,7 +5,7 @@ public class EncodingC {
     public static String encoding(String theText, int key) {
         theText = theText.toLowerCase();
         // to get cipher text
-        String cText = "";
+        StringBuilder cText = new StringBuilder();
         //loop through index of alphabet
         for (int i = 0; i < theText.length(); i++) {
             int charIndex = alphabet.indexOf(theText.charAt(i));
@@ -15,8 +15,8 @@ public class EncodingC {
             char cipherTextChar = alphabet.charAt(newIndex);
 
             //appending characters to the empty string cText
-            cText = cText + cipherTextChar;
+            cText.append(cipherTextChar);
         }
-        return cText;
+        return cText.toString();
     }
 }

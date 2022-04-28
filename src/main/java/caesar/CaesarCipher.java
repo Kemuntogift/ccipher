@@ -2,8 +2,8 @@ package caesar;
 
 public class CaesarCipher {
 
-    private String theText;
-    private int key;
+    private final String theText;
+    private final int key;
 
     public CaesarCipher(String theText, int key) {
 
@@ -20,10 +20,7 @@ public class CaesarCipher {
     }
 
     public boolean isValid() {
-        if ((key > 0 && key < 26)) {
-            return true;
-        }
-        return false;
+        return key > 0 && key < 26;
     }
 
 
