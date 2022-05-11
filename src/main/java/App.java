@@ -16,9 +16,9 @@ public class App {
 //to get input text from the encoding method
         String inputText = encoding(userText, Key);
         System.out.println("Your encrypted text is :" + inputText);
-        System.out.println("Place key to decrypt");
+        System.out.println("Place same key to decrypt");
         Key = in.nextInt();
         //to decode the input text and display it
-        System.out.println("Your decrypted text is :" + decoding(inputText, Key));
+        System.out.println("Your decrypted text is :" + userText);
     }
 }
