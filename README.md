@@ -7,7 +7,7 @@ Gift Kemunto
 ## Project Description
 A Java application that implements a caesar cipher which is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet(A-Z). It includes encoding and decoding.
 Interaction is done through the command line or terminal.
-
+[![screenshot-from-2022-05-11-13-02-22.png](https://i.postimg.cc/VvXt49XQ/screenshot-from-2022-05-11-13-02-22.png)](https://postimg.cc/30JWxvLn)
  ## Technologies Used
 * Java
 ## Requirements
