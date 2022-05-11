@@ -42,8 +42,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Commit your changes (`git commit -am 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request
-## Known bugs
-* decoding
+
 
 ## References
 * LMS
